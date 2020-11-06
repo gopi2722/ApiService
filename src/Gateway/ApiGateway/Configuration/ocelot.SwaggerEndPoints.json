@@ -1,0 +1,30 @@
+{
+  "SwaggerEndPoints": [
+    {
+      "Key": "msone.svc",
+      "Config": [
+        {
+          "Name": "ms one API",
+          "Version": "v1",
+          "Service": {
+            "Name": "msone.svc",
+            "Path": "/swagger/v1/swagger.json"
+          }
+        }
+      ]
+    },
+    {
+      "Key": "mstwo.svc",
+      "Config": [
+        {
+          "Name": "ms two API",
+          "Version": "v1",
+          "Service": {
+            "Name": "mstwo.svc",
+            "Path": "/swagger/v1/swagger.json"
+          }
+        }
+      ]
+    }  
+  ]
+}

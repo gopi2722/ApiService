@@ -1,0 +1,10 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/{everything}",
+      "ServiceName": "mstwo.svc",
+      "UpstreamPathTemplate": "/api/mstwo.svc/{everything}",
+      "SwaggerKey": "mstwo.svc"
+    }
+  ]
+}
